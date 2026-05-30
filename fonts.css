@@ -1,0 +1,167 @@
+/* cause */
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-Black.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-Bold.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-ExtraBold.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-ExtraLight.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-Light.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-Medium.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-Regular.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-SemiBold.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/cause/Cause-Thin.ttf') format('truetype');
+    font-weight: 30;
+}
+
+/* inclusive sans */
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-Bold.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-BoldItalic.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-Italic.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-Light.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-LightItalic.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-Medium.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-MediumItalic.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-Regular.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-SemiBold.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/inclusive_sans/InclusiveSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 30;
+}
+
+/* playwrite */
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/playwrite/PlaywriteGBS-ExtraLight.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/playwrite/PlaywriteGBS-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/playwrite/PlaywriteGBS-Italic.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/playwrite/PlaywriteGBS-Light.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/playwrite/PlaywriteGBS-LightItalic.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/playwrite/PlaywriteGBS-Regular.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/playwrite/PlaywriteGBS-Thin.ttf') format('truetype');
+    font-weight: 30;
+}
+
+@font-face {
+    font-family: 'Cause';
+    src: url('./fonts/playwrite/PlaywriteGBS-ThinItalic.ttf') format('truetype');
+    font-weight: 30;
+}
