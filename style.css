@@ -65,17 +65,24 @@ body {
 }
 
 .cloud_white {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: -75px;
     width: 100%;
+    position:relative;
+    background:  #125E8A;
+    bottom: 50px;
+    left: 0px;
+    padding: 0; 
+    background: 
+    radial-gradient(circle at 50px 100%,  #F7F4EF 71%, #125E8A 50%);
+    background-color: #125E8A;
+    background-size:100px 50px;
+    height:50px;
+    background-repeat: repeat-x;
 }
 
 .quote_section {
-    display: flex;
+    display: relative;
+    border: 0;
     width: 100%;
-    padding: 110px 40px 150px 40px;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
@@ -85,31 +92,30 @@ body {
 }
 
 .quote{
+    display: flex;
     color: #125E8A;
-font-family: "Playwrite US Modern";
-font-size: 34px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 82.353% */
+    font-family: "Playwrite US Modern";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 82.353% */
+    justify-content: center;
+    align-items: center;
+    height: 150px;
 }
 
-.scallop {
-      width: 100%;
-  position:relative;
-  background:  #125E8A;
+.footer{
+    width: 100%;
+    position:relative;
+    background:  #125E8A;
+    bottom: 0px;
+    padding: 0; 
+    background: 
+    radial-gradient(circle at 50px 100%,  rgb(34, 142, 215) 71%, #F7F4EF 50%);
+    background-color: rgb(34, 142, 215);
+    background-size:100px 50px;
+    height:100px;
+    background-repeat: repeat-x;
 }
 
 
-.scallop::after { 
-  position:absolute;
-  bottom: -50px;
-  left: 0px;
-  width: 100%;
-  content:" ";
-  background: 
-  radial-gradient(circle at 50% 0%,  #125E8A 25%, #F7F4EF 26%, #F7F4EF 40%);
-  background-color: #125E8A;
-  background-size:50px 100px;
-  height:50px;
-  background-repeat: repeat-x;
-}
