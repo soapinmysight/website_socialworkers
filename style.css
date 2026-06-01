@@ -104,7 +104,7 @@ body {
     height: 150px;
 }
 
-.footer{
+.section1{
     width: 100%;
     position:relative;
     background:  #125E8A;
@@ -114,7 +114,21 @@ body {
     radial-gradient(circle at 50px 100%,  rgb(34, 142, 215) 71%, #F7F4EF 50%);
     background-color: rgb(34, 142, 215);
     background-size:100px 50px;
-    height:100px;
+    height:600px;
+    background-repeat: repeat-x;
+}
+
+.section2{
+    width: 100%;
+    position:relative;
+    background:  #125E8A;
+    bottom: 0px;
+    padding: 0; 
+    background: 
+    radial-gradient(circle at 50px 100%,  rgb(34, 142, 215) 71%, #F7F4EF 50%);
+    background-color: rgb(34, 142, 215);
+    background-size:100px 50px;
+    height:600px;
     background-repeat: repeat-x;
 }
 
