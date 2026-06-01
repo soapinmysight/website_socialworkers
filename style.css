@@ -1,13 +1,25 @@
+:root {
+    --red: #C70202;
+    --pink: #FF5269;
+    --orange: #FD8B2E;
+    --yellow: #FDC601;
+    --green: #92D262;
+    --lblue: #228ED7;
+    --dblue: #125E8A;
+    --purle: #9C92E5;
+    --offwhite: #F7F4EF;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: #125E8A;
+    background: var(--dblue);
 }
 
 .desktop {
     display: flex;
     flex-direction: column;
-    background: #125E8A;
+    background: var(--dblue);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -30,17 +42,9 @@ body {
     gap: 50px;
 }
 
-.home_link {
-    color: #F7F4EF;
-    font-family: Cause;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
+.home_link,
 .aboutus_link {
-    color: #F7F4EF;
+    color: var(--offwhite);
     font-family: Cause;
     font-size: 30px;
     font-style: normal;
@@ -66,16 +70,15 @@ body {
 
 .cloud_white {
     width: 100%;
-    position:relative;
-    background:  #125E8A;
+    position: relative;
+    background: var(--dblue);
     bottom: 50px;
     left: 0px;
-    padding: 0; 
-    background: 
-    radial-gradient(circle at 50px 100%,  #F7F4EF 71%, #125E8A 50%);
-    background-color: #125E8A;
-    background-size:100px 50px;
-    height:50px;
+    padding: 0;
+    background: radial-gradient(circle at 50px 100%, var(--offwhite) 71%, var(--dblue) 50%);
+    background-color: var(--dblue);
+    background-size: 100px 50px;
+    height: 50px;
     background-repeat: repeat-x;
 }
 
@@ -87,49 +90,85 @@ body {
     align-items: flex-start;
     gap: 10px;
     align-self: stretch;
-    background: #F7F4EF;
+    background: var(--offwhite);
     box-sizing: border-box;
 }
 
-.quote{
+.quote {
     display: flex;
-    color: #125E8A;
+    color: var(--dblue);
     font-family: "Playwrite US Modern";
     font-size: 34px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 82.353% */
+    line-height: 28px;
     justify-content: center;
     align-items: center;
     height: 150px;
 }
 
-.section1{
+.description_container {
+    display: flex;
+    padding: 50px 332px 92px 332px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.description_content {
+    display: flex;
+    padding: 41px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--offwhite);
+    box-shadow: 0 4px 4px 0 var(--dblue);
+}
+
+.description_img {
+    width: 301px;
+    height: 301px;
+    aspect-ratio: 1/1;
+}
+
+.section1 {
     width: 100%;
-    position:relative;
-    background:  #125E8A;
+    position: relative;
+    background: var(--dblue);
     bottom: 0px;
-    padding: 0; 
-    background: 
-    radial-gradient(circle at 50px 100%,  rgb(34, 142, 215) 71%, #F7F4EF 50%);
-    background-color: rgb(34, 142, 215);
-    background-size:100px 50px;
-    height:600px;
+    padding: 0;
+    background:
+        radial-gradient(circle at 50px 100%, var(--lblue) 71%, var(--offwhite) 50%);
+    background-color: var(--lblue);
+    background-size: 100px 50px;
     background-repeat: repeat-x;
 }
 
-.section2{
+.section2 {
     width: 100%;
-    position:relative;
-    background:  #125E8A;
+    position: relative;
+    background: var(--dblue);
     bottom: 0px;
-    padding: 0; 
-    background: 
-    radial-gradient(circle at 50px 100%,  rgb(34, 142, 215) 71%, #F7F4EF 50%);
-    background-color: rgb(34, 142, 215);
-    background-size:100px 50px;
-    height:600px;
+    padding: 0;
+    background:
+        radial-gradient(circle at 50px 100%, var(--offwhite) 71%, var(--lblue) 50%);
+    background-color: var(--offwhite);
+    background-size: 100px 50px;
+    height: 50px;
     background-repeat: repeat-x;
 }
 
-
+.section3 {
+    width: 100%;
+    position: relative;
+    background: var(--dblue);
+    bottom: 0px;
+    padding: 0;
+    background:
+        radial-gradient(circle at 50px 100%, var(--lblue) 71%, var(--offwhite) 50%);
+    background-color: var(--lblue);
+    background-size: 100px 50px;
+    background-repeat: repeat-x;
+}
