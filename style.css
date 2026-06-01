@@ -58,41 +58,9 @@ body {
     aspect-ratio: 20/9;
 }
 
-.section_0 {
-    display: flex;
-    width: 100%;
-    padding: 0;
-    justify-content: center;
-    align-items: flex-start;
-    flex-shrink: 0;
-    align-self: stretch;
-}
 
-.cloud_white {
-    width: 100%;
-    position: relative;
-    background: var(--dblue);
-    bottom: 50px;
-    left: 0px;
-    padding: 0;
-    background: radial-gradient(circle at 50px 100%, var(--offwhite) 71%, var(--dblue) 50%);
-    background-color: var(--dblue);
-    background-size: 100px 50px;
-    height: 50px;
-    background-repeat: repeat-x;
-}
 
-.quote_section {
-    display: relative;
-    border: 0;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
-    align-self: stretch;
-    background: var(--offwhite);
-    box-sizing: border-box;
-}
+
 
 .quote {
     display: flex;
@@ -131,6 +99,43 @@ body {
     width: 301px;
     height: 301px;
     aspect-ratio: 1/1;
+}
+
+.section_container {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.quote_section {
+    display: relative;
+    border: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background: var(--offwhite);
+    box-sizing: border-box;
+}
+
+.section_0 {
+    width: 100%;
+    position: relative;
+    background: var(--dblue);
+    bottom: 50px;
+    left: 0px;
+    padding: 0;
+    background: radial-gradient(circle at 50px 100%, var(--offwhite) 71%, var(--dblue) 50%);
+    background-color: var(--dblue);
+    background-size: 100px 50px;
+    height: 50px;
+    background-repeat: repeat-x;
 }
 
 .section1 {
