@@ -73,7 +73,7 @@ body {
     line-height: 28px;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    padding-top: 100px;
 }
 
 .description_container {
@@ -163,14 +163,14 @@ aspect-ratio: 32/33;
 .section_0 {
     width: 100%;
     position: relative;
-    background: var(--dblue);
+    background: var(--offwhite);
     bottom: 50px;
     left: 0px;
     padding: 0;
     background: radial-gradient(circle at 50px 100%, var(--offwhite) 71%, var(--dblue) 50%);
-    background-color: var(--dblue);
+    background-color: var(--offwhite);
     background-size: 100px 50px;
-    height: 50px;
+    height: 150px;
     background-repeat: repeat-x;
 }
 
@@ -208,12 +208,11 @@ aspect-ratio: 32/33;
 
 .section3_textcontainer{
 display: flex;
-padding: 100px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 10px;
-
+width: 50vw;
 }
 
 .section3_5 {
@@ -262,6 +261,7 @@ padding: 10px;
 flex-direction: column;
 align-items: center;
 gap: 10px;
+width: 50vw;
 }
 
 .changemynamelater {
@@ -299,4 +299,15 @@ gap: 10px;
     background-size: 100px 50px;
     background-repeat: repeat-x;
     height: 200px;
+}
+
+.footer p{
+    width: 50vw;
+    color: var(--offwhite);
+text-align: center;
+font-family: "Inclusive Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
 }
