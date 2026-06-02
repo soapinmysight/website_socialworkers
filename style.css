@@ -230,17 +230,23 @@ width: 50vw;
     background-size: 100px 50px;
     background-repeat: repeat-x;
 }
-
-.content_container {
+.sec1_content_container {
     display: flex;
     padding-top: 150px;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
     align-self: stretch;
-
 }
 
+.content_container {
+    display: flex;
+    padding: 150px 0 120px; /* top right/left bottom */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
 
 .content_content {
 display: flex;
