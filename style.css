@@ -14,6 +14,11 @@ body {
     margin: 0;
     padding: 0;
     background: var(--dblue);
+    font-family: "Inclusive Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dblue);
 }
 
 .desktop {
@@ -58,10 +63,6 @@ body {
     aspect-ratio: 20/9;
 }
 
-
-
-
-
 .quote {
     display: flex;
     color: var(--dblue);
@@ -85,14 +86,33 @@ body {
 }
 
 .description_content {
-    display: flex;
-    padding: 41px 60px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 30px;
+display: flex;
+padding: 41px 60px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 30px;
     background: var(--offwhite);
     box-shadow: 0 4px 4px 0 var(--dblue);
+}
+
+h1 {
+    color: #125E8A;
+font-family: "Cause";
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 100% */
+}
+
+p {
+    color: #125E8A;
+font-family: "Inclusive Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
 }
 
 .description_img {
@@ -185,8 +205,15 @@ aspect-ratio: 32/33;
     background-color: #FDC601;
     background-size: 100px 50px;
     background-repeat: repeat-x;
-    height: 1000px;
+}
 
+.section3_textcontainer{
+    display: flex;
+padding: 10px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
 }
 
 .section3_5 {
@@ -195,7 +222,6 @@ aspect-ratio: 32/33;
     background-color: var(--purle);
     background-size: 100px 50px;
     background-repeat: repeat-x;
-    height: 1000px;
 }
 
 .section4 {
@@ -204,7 +230,6 @@ aspect-ratio: 32/33;
     background-color: var(--green);
     background-size: 100px 50px;
     background-repeat: repeat-x;
-    height: 1000px;
 }
 
 .content_container {
@@ -214,15 +239,18 @@ aspect-ratio: 32/33;
     align-items: flex-start;
     gap: 20px;
     align-self: stretch;
+
 }
+
+
 .content_content {
-    display: flex;
-    width: 80%;
-    height: 500px;
-    padding: 100px 60px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+display: flex;
+width: 1208px;
+padding: 70px 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
     border: solid 5px var(--dblue);
     border-radius: 30px;
     background: var(--offwhite);
