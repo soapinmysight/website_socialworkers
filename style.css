@@ -154,7 +154,7 @@ line-height: 28px; /* 140% */
     box-sizing: border-box;
 }
 
-.video_section {
+/* .video_section {
     display: flex;
 padding: 150px 300px;
 justify-content: center;
@@ -162,7 +162,19 @@ align-items: center;
 gap: 10px;
 border: 10px solid var(--yellow);
 background: var(--purle);
+} */
+.video_section {
+    width: 60vw;
+    aspect-ratio: 16 / 9;
+
+    border: 10px solid var(--yellow);
+    border-radius: 20px;
+
+    padding: 0;
+    background: transparent;
+    box-sizing: border-box;
 }
+
 
 .playbutton {
     width: 128px;
